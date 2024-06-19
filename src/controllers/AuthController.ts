@@ -37,7 +37,7 @@ export class AuthController {
 			});
 
 			await Promise.allSettled([user.save(), token.save()]);
-			res.send("Tu cuenta ha sido creada, revisa tu email para confirmarla");
+			res.send("Tu cuenta ha sido creada, revisa la bandeja de entrada o spam para confirmarla");
 		} catch (error) {
 			res.status(500).json({ error: "Hubo un error" });
 		}
