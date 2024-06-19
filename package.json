@@ -10,7 +10,7 @@
     "start": "node ./dist/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Enoc Dominguez",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
